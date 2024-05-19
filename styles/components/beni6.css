@@ -1,0 +1,210 @@
+.beni6{
+    height: 80vh;
+}
+.beni6__background{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    opacity: 30%;
+}
+.beni6__beni{
+    position: relative;
+    top: -36.5rem;
+    color: var(--clr-dark);
+    font-size: var(--size-xs);
+    text-align: center;
+    letter-spacing: -.1rem;
+}
+.beni6__text{
+    display: inline-block;
+}
+.beni6__learn{
+    font-size: var(--size-xs);
+    border: 1px solid var(--clr-drop);
+    display: inline-block;
+    padding: 2px 25px;
+    border-radius: 30px;
+    color: var(--clr-drop);
+    transition: ease-in-out .2s;
+    letter-spacing: normal;
+}
+.beni6__learn:hover{
+    color: var(--clr-dark);
+    background-color: var(--clr-drop);
+    transform: scale(1.1);
+}
+
+/* Start of */
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+.footer-col h3{
+	color: var(--clr-dark);
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col p{
+    font-size: var(--size-s);
+}
+/* .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+} */
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-col ul li a{
+        font-size: var(--size-xs);
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+    .footer-col ul li a{
+        font-size: var(--size-xs);
+    }
+
+}
+/* End of */
+
+
+@media (min-width: 475px){
+    .beni6__beni{
+        position: relative;
+        top: -36.5rem;
+        color: var(--clr-dark);
+        font-size: var(--size-xs);
+        text-align: center;
+        letter-spacing: -.1rem;
+        height: 48.6em;
+        overflow-y: hidden;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px){
+    .beni6__beni{
+        position: relative;
+        top: -36.5rem;
+        color: var(--clr-dark);
+        font-size: var(--size-xs);
+        text-align: center;
+        letter-spacing: -.1rem;
+        height: 48.7em;
+        overflow-y: hidden;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .beni6__beni{
+        position: relative;
+        top: -35rem;
+        color: var(--clr-dark);
+        font-size: var(--size-s);
+        text-align: center;
+        letter-spacing: -.1rem;
+        height: 40em;
+        overflow-y: hidden;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px){
+    .beni6__background{
+        width: 100vw;
+        height: 80vh;
+        opacity: 30%;
+    }
+    .beni6__beni{
+        position: relative;
+        top: -27rem;
+        color: var(--clr-dark);
+        font-size: var(--size-xl);
+        text-align: center;
+        line-height: 2.3rem;
+        height: 20em;
+        overflow-y: hidden;
+    }
+    .footer-col{
+        width: 30%;
+    }
+    .beni6__text{
+        display: inline-block;
+    }
+    .beni6__learn{
+        font-size: var(--size-s);
+        border: 1px solid var(--clr-drop);
+        display: inline-block;
+        padding: 3px 40px;
+        border-radius: 30px;
+        color: var(--clr-drop);
+        transition: ease-in-out .2s;
+        letter-spacing: normal;
+    }
+    .beni6__learn:hover{
+        color: var(--clr-dark);
+        background-color: var(--clr-drop);
+        transform: scale(1.1);
+    }
+    .beni6__beni td{
+        border: 1px solid black;
+        width: 20em;
+        height: 10em;
+    }
+}
+
+/* @media (min-width: 1280px){} */
+
+@media (min-width: 1536px){
+    .beni6__beni{
+        position: relative;
+        top: -28rem;
+        color: var(--clr-dark);
+        font-size: var(--size-xl);
+        text-align: center;
+        line-height: 2.3rem;
+        height: 20em;
+        overflow-y: hidden;
+    }
+    .footer-col{
+        width: 30%;
+    }
+}
